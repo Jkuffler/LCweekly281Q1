@@ -5,7 +5,8 @@ var countEven = function(num) {
   const digSum = (num) => {
   const s = num.toString();
       let sum = 0;
-      for(const char of s) {
+      for(const char of s) { /*    for (variable of iterable) {
+                                            statement}    */
           sum += +char;
       }
       return sum
